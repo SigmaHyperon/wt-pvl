@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+header, main, footer {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background: #aaa;
+    border-bottom: 1px solid black;
+}
+main {
+    width: 100%;
+    height: 80%;
+}
+footer {
+    width: 100%;
+    height: 10%;
+    background: #aaa;
+    border-top: 1px solid black;
+}
+div#sidebar {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: #ddd;
+    border-right: 1px solid #aaa;
+}
+div#content {
+    width: 80%;
+    height: 100%
+    float: left;
+}
